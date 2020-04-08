@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="mainVBox" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="500.0" minWidth="800.0" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+      <MenuBar maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="25.0" prefWidth="804.0" VBox.vgrow="NEVER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                <MenuItem mnemonicParsing="false" onAction="#showNewContactDialog" text="Add New Contact" />
+                <MenuItem mnemonicParsing="false" onAction="#showEditContactDialog" text="Edit Contact" />
+                <MenuItem mnemonicParsing="false" onAction="#deleteContact" text="Delete Contact" />
+                <MenuItem mnemonicParsing="false" onAction="#exitApplication" text="Exit" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+        <TableView fx:id="tableView" editable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity"
+                   minWidth="-Infinity" prefHeight="475.0" prefWidth="745.0" VBox.vgrow="SOMETIMES" onKeyPressed="#handleKeyPressed">
+            <columns>
+                <TableColumn fx:id="firstName" maxWidth="221.0" minWidth="-Infinity" prefWidth="168.0" text="First Name" />
+                <TableColumn fx:id="lastName" maxWidth="332.0" minWidth="-Infinity" prefWidth="172.0" text="Last Name" />
+                <TableColumn fx:id="phoneNumber" maxWidth="417.0" minWidth="-Infinity" prefWidth="229.0" text="Phone Number" />
+                <TableColumn fx:id="notes" maxWidth="589.0" minWidth="-Infinity" prefWidth="286.0" text="Address" />
+            </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+        </TableView>
+    </children>
+</VBox>
