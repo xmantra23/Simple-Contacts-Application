@@ -29,9 +29,9 @@
                 <TableColumn fx:id="phoneNumber" maxWidth="417.0" minWidth="-Infinity" prefWidth="229.0" text="Phone Number" />
                 <TableColumn fx:id="notes" maxWidth="589.0" minWidth="-Infinity" prefWidth="286.0" text="Address" />
             </columns>
-         <columnResizePolicy>
-            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
-         </columnResizePolicy>
+             <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+             </columnResizePolicy>
         </TableView>
     </children>
 </VBox>

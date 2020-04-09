@@ -1,183 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <contacts>
 <contact>
-	<first_name>Amir</first_name>
-	<last_name>Shrestha</last_name>
-	<phone_number>817-213-6599</phone_number>
-	<notes>5401 Rampart St, Houston, TX</notes>
+	<first_name>samir</first_name>
+	<last_name>his</last_name>
+	<phone_number>hello</phone_number>
+	<notes>hello</notes>
 </contact>
 <contact>
-	<first_name>Ashbin</first_name>
-	<last_name>Bhattarai</last_name>
-	<phone_number>312-334-5892</phone_number>
-	<notes>Kathmandu, Nepal</notes>
+	<first_name>samir</first_name>
+	<last_name>shrestha</last_name>
+	<phone_number>1234</phone_number>
+	<notes>adfas</notes>
 </contact>
 <contact>
-	<first_name>Bhaichung</first_name>
-	<last_name>Bhutiya</last_name>
-	<phone_number>112-323-3343</phone_number>
-	<notes>Thimpu, Bhutan</notes>
-</contact>
-<contact>
-	<first_name>Bikalpa</first_name>
-	<last_name>Pandit</last_name>
-	<phone_number>817-224-5876</phone_number>
-	<notes>1400 Mt Ave, Chicago, IL</notes>
-</contact>
-<contact>
-	<first_name>Boman</first_name>
-	<last_name>Irani</last_name>
-	<phone_number>432-223-6523</phone_number>
-	<notes>Paro, Bhutan</notes>
-</contact>
-<contact>
-	<first_name>Damber</first_name>
-	<last_name>Khadka</last_name>
-	<phone_number>817-223-5599</phone_number>
-	<notes>8100 South West Dr, Fort Worth, TX</notes>
-</contact>
-<contact>
-	<first_name>Deependra</first_name>
-	<last_name>Shrestha</last_name>
-	<phone_number>817-213-5598</phone_number>
-	<notes>2343 S Dale Rd, Waco, TX</notes>
-</contact>
-<contact>
-	<first_name>Ganga</first_name>
-	<last_name>Ghaley</last_name>
-	<phone_number>512-334-9856</phone_number>
-	<notes>1200 S Rice Ave, Dallas , TX</notes>
-</contact>
-<contact>
-	<first_name>Gehna</first_name>
-	<last_name>Tichkule</last_name>
-	<phone_number>123-334-2343</phone_number>
-	<notes>Mumbai, India</notes>
-</contact>
-<contact>
-	<first_name>Goman</first_name>
-	<last_name>Raj</last_name>
-	<phone_number>123-234-3343</phone_number>
-	<notes>Kathmandu, Nepal</notes>
-</contact>
-<contact>
-	<first_name>Gomz</first_name>
-	<last_name>Ruiz</last_name>
-	<phone_number>434-223-3432</phone_number>
-	<notes>Mexico City, Mexico</notes>
-</contact>
-<contact>
-	<first_name>Gustavo</first_name>
-	<last_name>Payan</last_name>
-	<phone_number>123-345-4453</phone_number>
-	<notes>Mexico City, Mexico</notes>
-</contact>
-<contact>
-	<first_name>Justin</first_name>
-	<last_name>Prevo</last_name>
-	<phone_number>654-223-1232</phone_number>
-	<notes>Portland, Oregon</notes>
-</contact>
-<contact>
-	<first_name>Kumar</first_name>
-	<last_name>Tamang</last_name>
-	<phone_number>123-432-2287</phone_number>
-	<notes>Paro, Bhutan</notes>
-</contact>
-<contact>
-	<first_name>Nikhil</first_name>
-	<last_name>Sharma</last_name>
-	<phone_number>213-345-9987</phone_number>
-	<notes>Mumbai, India</notes>
-</contact>
-<contact>
-	<first_name>Prabal</first_name>
-	<last_name>Rai</last_name>
-	<phone_number>654-234-1123</phone_number>
-	<notes>NewYork City, NY</notes>
-</contact>
-<contact>
-	<first_name>Rohit</first_name>
-	<last_name>Poudel</last_name>
-	<phone_number>223-345-1243</phone_number>
-	<notes>Pokhara, Nepal</notes>
-</contact>
-<contact>
-	<first_name>Roshan</first_name>
-	<last_name>Shahukhala</last_name>
-	<phone_number>456-334-1234</phone_number>
-	<notes>Kathmandu, Nepal</notes>
-</contact>
-<contact>
-	<first_name>Rushmi</first_name>
-	<last_name>Bhuju</last_name>
-	<phone_number>817-559-2185</phone_number>
-	<notes>900 S Center St, Arlington, TX</notes>
-</contact>
-<contact>
-	<first_name>Sachin</first_name>
-	<last_name>Tichkule</last_name>
-	<phone_number>123-223-3432</phone_number>
-	<notes>Bangalore, India</notes>
-</contact>
-<contact>
-	<first_name>Samir</first_name>
-	<last_name>Shrestha</last_name>
-	<phone_number>817-407-9444</phone_number>
-	<notes>5401 Renwick Dr, Houston, TX</notes>
-</contact>
-<contact>
-	<first_name>Saurav</first_name>
-	<last_name>Pandey</last_name>
-	<phone_number>123-334-2343</phone_number>
-	<notes>Buenos Aires, Argentina</notes>
-</contact>
-<contact>
-	<first_name>Shanice</first_name>
-	<last_name>Shrestha</last_name>
-	<phone_number>716-334-1287</phone_number>
-	<notes>Gurgaon, India</notes>
-</contact>
-<contact>
-	<first_name>Shankra</first_name>
-	<last_name>Sharma</last_name>
-	<phone_number>987-234-4455</phone_number>
-	<notes>Dharavi, Mumbai, India</notes>
-</contact>
-<contact>
-	<first_name>Sonam</first_name>
-	<last_name>Tamang</last_name>
-	<phone_number>123-432-4423</phone_number>
-	<notes>Thimpu, Bhutan</notes>
-</contact>
-<contact>
-	<first_name>Sunil</first_name>
-	<last_name>Chettri</last_name>
-	<phone_number>987-223-5465</phone_number>
-	<notes>Lahore, Pakistan</notes>
-</contact>
-<contact>
-	<first_name>Sweta</first_name>
-	<last_name>Tiwari</last_name>
-	<phone_number>435-223-1232</phone_number>
-	<notes>Goa, India</notes>
-</contact>
-<contact>
-	<first_name>Vijay</first_name>
-	<last_name>Pandey</last_name>
-	<phone_number>765-324-4432</phone_number>
-	<notes>Dharan, Nepal</notes>
-</contact>
-<contact>
-	<first_name>Vijay</first_name>
-	<last_name>Malia</last_name>
-	<phone_number>234-123-4454</phone_number>
-	<notes>Pune, India</notes>
-</contact>
-<contact>
-	<first_name>Bikash</first_name>
-	<last_name>Gurung</last_name>
-	<phone_number>123-334-1232</phone_number>
-	<notes>Pokhara, Nepal</notes>
+	<first_name>ases</first_name>
+	<last_name>sdfsd</last_name>
+	<phone_number>sdfdsf</phone_number>
+	<notes>sdfsdf</notes>
 </contact>
 </contacts>

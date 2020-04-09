@@ -1,6 +1,7 @@
 package sample;
 
 import javafx.application.Platform;
+import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
@@ -35,25 +36,25 @@ public class Controller {
     private TableView<Contact> tableView;
     
     @FXML
-    private TableColumn<Contact,String> firstName;
+    private TableColumn<Contact,SimpleStringProperty> firstName;
     
     @FXML
-    private TableColumn<Contact,String> lastName;
+    private TableColumn<Contact,SimpleStringProperty> lastName;
     
     @FXML
-    private TableColumn<Contact,String> phoneNumber;
+    private TableColumn<Contact,SimpleStringProperty> phoneNumber;
     
     @FXML
-    private TableColumn<Contact,String> notes;
+    private TableColumn<Contact,SimpleStringProperty> notes;
     
     @FXML
     private ContextMenu tableContextMenu;
 
     public void initialize(){
-        firstName.setCellValueFactory(new PropertyValueFactory<Contact,String>("firstName"));
-        lastName.setCellValueFactory(new PropertyValueFactory<Contact,String>("lastName"));
-        phoneNumber.setCellValueFactory(new PropertyValueFactory<Contact,String>("phoneNumber"));
-        notes.setCellValueFactory(new PropertyValueFactory<Contact,String>("notes"));
+        firstName.setCellValueFactory(new PropertyValueFactory<Contact, SimpleStringProperty>("firstName"));
+        lastName.setCellValueFactory(new PropertyValueFactory<Contact,SimpleStringProperty>("lastName"));
+        phoneNumber.setCellValueFactory(new PropertyValueFactory<Contact,SimpleStringProperty>("phoneNumber"));
+        notes.setCellValueFactory(new PropertyValueFactory<Contact,SimpleStringProperty>("notes"));
         tableView.setItems(ContactData.getInstance().getContacts());
         tableView.getSelectionModel().selectFirst();
         
@@ -128,13 +129,16 @@ public class Controller {
         controller.setFields(selectedContact);
         Optional<ButtonType> result = dialog.showAndWait();
         if(result.isPresent() && result.get() == ButtonType.OK){
-            Contact updatedContact = controller.getDialogInput();
-            if(updatedContact == null){
-                System.out.println("invalid input");
-            }else{
-                ContactData.getInstance().replaceContact(selectedContact,updatedContact);
-                tableView.getSelectionModel().select(updatedContact);
-            }
+            controller.updateContact(selectedContact);
+            tableView.getSelectionModel().select(selectedContact);
+//            Contact updatedContact = controller.getDialogInput();
+//            if(updatedContact == null){
+//                System.out.println("invalid input");
+//            }else{
+//                ContactData.getInstance().replaceContact(selectedContact,updatedContact);
+//                //controller.updateContact(selectedContact);
+//                tableView.getSelectionModel().select(updatedContact);
+//            }
         }
     }
     

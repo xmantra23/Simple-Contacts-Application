@@ -1,5 +1,6 @@
 package sample;
 
+import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
@@ -80,6 +81,13 @@ public class DialogController {
         this.lastName.setText(contact.getLastName());
         this.address.setText(contact.getNotes());
         this.phoneNumber.setText(contact.getPhoneNumber());
+    }
+    
+    public void updateContact(Contact contact){
+        contact.setFirstName(this.firstName.getText());
+        contact.setLastName(this.lastName.getText());
+        contact.setPhoneNumber(this.phoneNumber.getText());
+        contact.setNotes(this.address.getText());
     }
     
 }
