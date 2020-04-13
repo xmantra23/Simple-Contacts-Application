@@ -16,6 +16,8 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.ScrollEvent;
+import javafx.scene.layout.Border;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
 import javafx.util.Callback;
 import sample.datamodel.Contact;
@@ -30,7 +32,7 @@ public class Controller {
     private DialogController controller;
     
     @FXML
-    private VBox mainVBox;
+    private BorderPane mainBorderPane;
     
     @FXML
     private TableView<Contact> tableView;
@@ -102,7 +104,7 @@ public class Controller {
     @FXML
     private void showNewContactDialog(){
         dialog = new Dialog<>();
-        dialog.initOwner(mainVBox.getScene().getWindow());  //main.fxml--->VBox owns dialog.fxml
+        dialog.initOwner(mainBorderPane.getScene().getWindow());  //main.fxml--->VBox owns dialog.fxml
         dialog.setTitle("Create New Contact");
         dialog.setHeaderText("Use this dialog to create a new contact");
         setFxmlLoader();  //initialized fxml and controller
@@ -122,7 +124,7 @@ public class Controller {
     public void showEditContactDialog(){
         Contact selectedContact = tableView.getSelectionModel().getSelectedItem();
         dialog = new Dialog<>();
-        dialog.initOwner(mainVBox.getScene().getWindow());  //main.fxml--->VBox owns dialog.fxml
+        dialog.initOwner(mainBorderPane.getScene().getWindow());  //main.fxml--->VBox owns dialog.fxml
         dialog.setTitle("Edit Contact");
         dialog.setHeaderText("Edit: " + selectedContact.getFirstName() + " " + selectedContact.getLastName());
         setFxmlLoader();
